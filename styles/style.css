@@ -1,12 +1,60 @@
 
-console.log("Welcome to Luke Moat's Dev Page!");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-document.addEventListener('DOMContentLoaded', function() {
-    const buttons = document.querySelectorAll('.btn');
 
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            console.log(`Button clicked: ${this.textContent}`);
-        });
-    });
-});
+body {
+    background-image: url('images/MtRain.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif; 
+    color: #fff;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: none; 
+    border-radius: 10px; 
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    position: relative;
+}
+
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 20px 10px; 
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
