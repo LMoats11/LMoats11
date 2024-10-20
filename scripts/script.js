@@ -1,18 +1,11 @@
-console.log("Page Loaded Successfully");
+console.log("Welcome to Luke Moat's Dev Page!");
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.btn');
+
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            console.log(`Button clicked: ${this.textContent}`);
         });
     });
 });
-body {
-    background-image: url('MtRain.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-position: center;
-    font-family: 'Roboto', sans-serif;
-}
