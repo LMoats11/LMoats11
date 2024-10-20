@@ -1,13 +1,11 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
-    background-image: url('images/MtRain.png');
+    background-image: url('images/MtRain.png'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -16,11 +14,9 @@ body {
     color: #fff;
 }
 
-
 .navbar {
     margin-bottom: 20px;
 }
-
 
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.7); 
@@ -28,7 +24,6 @@ body {
     padding: 30px 20px;
     border-radius: 10px;
 }
-
 
 .card {
     background-color: rgba(255, 255, 255, 0.8); 
@@ -41,13 +36,11 @@ body {
     transform: scale(1.05); 
 }
 
-
 .footer {
     background-color: rgba(0, 0, 0, 0.8); 
     color: white;
     position: relative;
 }
-
 
 @media (max-width: 768px) {
     .jumbotron {
