@@ -9,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 body {
-    background-image: url('images/MtRain.png');
+    background-image: url('https://www.w3schools.com/w3images/mountains.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
