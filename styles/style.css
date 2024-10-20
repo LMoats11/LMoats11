@@ -47,7 +47,7 @@ body {
 .footer {
     background-color: rgba(0, 0, 0, 0.8); 
     color: white;
-    position: relative;
+    position: static;
 }
 
 @media (max-width: 768px) {
