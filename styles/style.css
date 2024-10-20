@@ -48,6 +48,8 @@ body {
     background-color: rgba(0, 0, 0, 0.8); 
     color: white;
     position: static;
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
