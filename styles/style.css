@@ -1,5 +1,4 @@
 
-
 body {
     background-image: url('../images/MtRain.png');
     background-size: cover; 
@@ -33,6 +32,8 @@ body {
 .card img {
     height: 200px; 
     object-fit: cover; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
 }
 
 .card-body {
@@ -63,3 +64,26 @@ body {
     }
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto; 
+    padding: 0 15px; 
+}
+
+.card-title {
+    font-size: 1.5rem; 
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    flex-grow: 1; 
+    font-size: 1rem;
+}
+
+.footer {
+    padding: 15px 0; 
+}
+
+.card {
+    margin-bottom: 20px; 
+}
