@@ -27,6 +27,7 @@ body {
     border-radius: 10px; 
     transition: transform 0.2s;
     height: 100%; 
+    box-shadow: 0 4px 20px rgba(173, 216, 230, 0.8);
 }
 
 .card img {
